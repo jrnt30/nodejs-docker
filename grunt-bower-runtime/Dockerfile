@@ -1,4 +1,4 @@
-FROM jrnt30/nodejs-bower-grunt
+FROM jrnt30/nodejs-grunt-bower
 
 # Set instructions on build.
 ONBUILD ADD package.json /app/
